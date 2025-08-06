@@ -1,4 +1,4 @@
-package gestion;
+package gestion.entity;
 
 import java.time.LocalDate;
 
