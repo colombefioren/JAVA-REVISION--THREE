@@ -1,6 +1,7 @@
 package gestion.dao;
 
 import gestion.entity.Expense;
+import gestion.entity.ExpenseFilter;
 import gestion.entity.RecurringExpense;
 import gestion.entity.RefundableExpense;
 import java.util.HashMap;
@@ -51,5 +52,9 @@ public class ExpenseDAO {
           }
         });
     return result;
+  }
+
+  public List<Expense> filterExpenses(ExpenseFilter filter){
+    return expenses.stream().filter(filter::test).toList();
   }
 }
