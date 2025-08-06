@@ -3,10 +3,10 @@ package gestion;
 import java.time.LocalDate;
 
 public class Expense {
-    private final  String name;
-    private final double amount;
-    private final LocalDate date;
-    private final ExpenseType type;
+    protected final  String name;
+    protected final double amount;
+    protected final LocalDate date;
+    protected final ExpenseType type;
 
     public Expense(String name, double amount, LocalDate date, ExpenseType type) {
         this.name = name;
