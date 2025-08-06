@@ -14,5 +14,3 @@ A lightweight Java project to review core OOP concepts, inheritance, Stream API,
 
 ## 🧪 Run Tests
 Run `ExpenseTest` to validate functionality.
-
----
